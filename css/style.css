@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	box-sizing: border-box;
+}
+body{
+	width: 100%;
+	background-color: #eee;
+	font-family: 'Poppins', sans-serif;
+}
+header{
+	top: 0;
+	width: 100%;
+	text-align: center;
+}
+.content{
+	width: 100%;
+	background: linear-gradient(145deg, #19c8a9, #b5ebb7);
+}
+.content h1{
+	padding-top: 30px;
+	font-size: 50px;
+	color: white;
+}
+.form{
+	width: 400px;
+	height: 380px;
+	background: white;
+	display: block;
+	transform: translateY(-60px);
+	margin-left: calc(50% - 200px);
+	border-radius: 15px;
+}
+.form form{
+	width: 92%;
+	margin: 0 auto;
+	
+}
+.form-control{
+	width: 100%;
+	height: 80px;
+	margin-bottom: 15px;
+}
+.form-control h1{
+	font-size: 34px;
+	text-align: center;
+	padding-top: 20px;
+	color: #19c8a9;
+}
+.form-control label{
+	font-size: 16px;
+	display: block;
+	border-left: 4px solid #19c8a9;
+	padding: 2px 5px;
+}
+.form-control input{
+	width: 100%;
+	height: 42px;
+	margin-top: 6px;
+	border: 2px solid #19c8a9;
+	border-radius: 3px;
+	padding-left: 0.4rem;
+	font-size: 14px;
+	font-family: 'Poppins';
+}
+input:focus{
+	padding-left: 0.7rem;
+}
+input[type="submit"]{
+	margin-top: 20px;
+	background: linear-gradient(40deg, #19c8a9, #b5ebb7);
+	font-size: 18px;
+	font-weight: 700;
+	color: white;
+	cursor: pointer;
+	transition: .3s;
+	border: none;
+}
+input[type="submit"]:hover{
+	border: 2px solid #19c8a9;
+	opacity: 0.8;
+}
+.a-control{
+	width: 300px;
+	height: 40px;
+	margin-left: calc(50% - 150px);
+	text-align: center;
+}
+.a-control a{
+	font-size: 20px;
+	color: #19c8a9;
+}	
+.footer-control{
+	width: 100%;
+	height: 30px;
+	margin-top: 20px;
+	bottom: 0;
+	background: linear-gradient(10deg, #19c8a9, #b5ebb7);
+}
+.footer-control p{
+	font-size: 14px;
+	text-align: center;
+	padding-top: 5px;
+}
+@media (min-width: 750px) and (max-width: 2600px) {
+.content{
+	height: 180px;
+}
+.form{
+	width: 400px;
+	height: 380px;
+	transform: translateY(-60px);
+}
+.footer-control{
+	position: fixed;
+}
+}
+
+@media (min-width: 480px) and (max-width: 750px) {
+.content{
+	height: 160px;
+}
+.content h1{
+	padding-top: 15px;
+	font-size: 40px;
+}
+.form{
+	width: 400px;
+	height: 380px;
+	transform: translateY(-20px);
+}
+.footer-control{
+	position: fixed;
+}
+}
+
+@media (max-width: 450px) {
+.content{
+	height: 140px;
+}
+.content h1{
+	padding-top: 7.5px;
+	font-size: 26px;
+}
+.form{
+	width: 94%;
+	height: 330px;
+	margin: 0 auto;
+	transform: translateY(-40px);
+}
+.form-control{
+	width: 100%;
+	height: 67px;
+	margin-bottom: 20px;
+}
+.form-control h1{
+	font-size: 28px;
+}
+.form-control label{
+	font-size: 14px;
+}
+.form-control input{
+	width: 100%;
+	height: 40px;
+	margin-top: 6px;
+}
+.a-control a{
+	font-size: 18px;
+}
+}
