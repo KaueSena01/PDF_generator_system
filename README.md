@@ -1,4 +1,4 @@
-# PDF generator system 📄
+# PDFs generator system 📄
 # How it works? 🤔  
  When you register on the main page of system, you will be directed to a PDF page that lists all registered users.
  
