@@ -1,10 +1,17 @@
-# Sistema_PDF
-# Como funciona?    
- Ao fazer seu cadastro na página principal do sistema você será direcionado a uma página PDF que lista todos os usuários cadastrados.
+# PDF generator system 📄
+# How it works? 🤔  
+ When you register on the main page of system, you will be directed to a PDF page that lists all registered users.
  
-#  Como o PDF é gerado?
-É gerado a partir de um array que busca os usuários cadastrados no banco e lista todos eles em uma página PDF.
+# How is it generated? ✍
+it is generated from an array that searches the users registered in the database and list all of them in a PDF page.
 
-#  O que eu utilizei pra fazer?
-Utilizei a biblioteca FPDF que trabalha na geração de PDF's na linguagem PHP.
-<a href="http://www.fpdf.org/">FPDF</a>
+# What was used? 🔧
+I used the FPDF library that works in the generation of pdf's in php language.
+<a href="http://www.fpdf.org/">FPDF website</a>
+
+
+##
+<p>📷 Demo video</p>
+<img src="https://raw.githubusercontent.com/KaueSena01/PDF_generator_system/master/assets/gif.gif" width="100%"/>
+
+##
